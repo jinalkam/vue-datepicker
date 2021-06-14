@@ -116,7 +116,7 @@ const DatePicker = {
 };
 export default DatePicker;
 </script>
-<style scoped>
+<style  scoped>
 .custom-date {
   background: white;
   max-width: 300px;
@@ -135,6 +135,13 @@ input {
   width: 100%;
   background: none;
   text-align: center;
+  height: 40px;
+
 }
+ .focus-visible {
+    border:none;
+    outline: none;
+  }
+  
 
 </style>
